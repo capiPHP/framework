@@ -27,8 +27,41 @@
 
 + jakie pierwsze potrzeby chcemy zaspokoić tym kodem?
 
+    moje oczekiwania są takie, by móc korzystać z jakiegoś przemyślanego rozwiązania,
+    aby nie było potrzebne tworzenie kodu na nowo.
+    Mam na myśli, np stanaryzowane pola, obiekty do wykorzystania, ktore w zasadzie istnieja w innych moich projektach   
+    Value
+    Name
+    Collection
+    
+    TO od strony modelu danych, być może to będzie bezpośrednio związane z wymianą danych, dlatego myślę, że 
+    requesty do bazy danych czy requesty do API można traktować tak samo
+    konfiguracja powinna być jednakowa, tzn host, auth, itd
+    
+    Dane w zasadzie sa zalezne od typu a nie od zrodła, przykład:
+    
+    
+    config.yaml
+    
+        source:
+            -
+                name: db
+                auth: 
+                    type: plain
+                    user: admin
+                    pass: admin
+            -
+                name: github
+                auth: 
+                    type: token
+                    user: tomasz
+                    token: KJHSFJKDKJFHJKHKJSHJKDAHKJFHKJHKJDHAJKDFLH                    
+    
+     
+    
 
 ## Lista zadań
+
 + docker
     + plik konfiguracyjyny
     + docer hub repo
