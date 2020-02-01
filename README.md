@@ -1,15 +1,22 @@
-###########
+# capiPHP
+PHP framework
 
-   capyPHP/Framework-api
+## Dokumentacja
+
+### url
+capyPHP/Framework-api
    
-  web - miejsce odpalania frameworku przez nginx lub apache
+### web
+miejsce odpalania frameworku przez nginx lub apache
   
-  sec - kod user :
-    
-  config - pliki konfiguracyjne capyPHP
-  
-############  
+### src
+kod user :
+   
+### config
+pliki konfiguracyjne capiPHP
 
+
+## Zasady tworzenia
 
 .idea - powinien być przechowywany lokalnie, ponieważ, każdy programisty ma lokalne ustawienia.
 .gitignore  - powinienn zawierac ten plik jako wykluczony
