@@ -9,3 +9,7 @@
   config - pliki konfiguracyjne capyPHP
   
 ############  
+
+
+.idea - powinien być przechowywany lokalnie, ponieważ, każdy programisty ma lokalne ustawienia.
+.gitignore  - powinienn zawierac ten plik jako wykluczony
