@@ -1,0 +1,4 @@
+function capi()
+{
+    return true;
+}

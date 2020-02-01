@@ -7,8 +7,12 @@ PHP framework
 capyPHP/Framework-api
    
 ### web
-miejsce odpalania frameworku przez nginx lub apache
+- miejsce odpalania frameworku przez nginx lub apache
+- pliki skryptu php
   
+### public
+- wszystkie pozostałe pliki, statyzcne skrypty, itd
+
 ### src
 kod user :
    
@@ -20,3 +24,15 @@ pliki konfiguracyjne capiPHP
 
 .idea - powinien być przechowywany lokalnie, ponieważ, każdy programisty ma lokalne ustawienia.
 .gitignore  - powinienn zawierac ten plik jako wykluczony
+
+
+## Komunikacja
+
+### github tickets
+..
+
+### git repo
+..
+
+### github  Board
+..
