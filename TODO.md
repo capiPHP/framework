@@ -2,6 +2,9 @@
 
 + jakie biblioteki będą używane, włączane do frameworka?
 
+     Odnośnie biblotek.Myśle ,że można by zapożyczyć bibloteki z symfony odnośnie bezpieczeństwa i logowania. Bo to dość obszerny temat.
+     A te bibloteki są już w pewnym stopniu sprawdzone.
+
 + Jakie funkcjonalności w pierwszej wersji
 
      Myśle ,że w głównej wersji 1 powinniśmy się skupić na zbudowaniu jakiegoś mechanizmu pracy z bazą danych ,ale takiego nie 
