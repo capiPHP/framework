@@ -36,3 +36,10 @@ pliki konfiguracyjne capiPHP
 
 ### github  Board
 ..
+
+## Symfony
+Symfony wykorzystuje boundle dla redisa do kolejkowania.
+
+https://symfony.com/doc/current/components/cache/adapters/redis_adapter.html
+
+
